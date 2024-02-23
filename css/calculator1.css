@@ -1,0 +1,43 @@
+/*#body{
+    
+}*/
+/*body{
+    background-image: blue;
+  } */
+  body {
+    background-image: url('./calci.jpg');
+    background-size: cover;
+    background-position-x: left;
+    
+}
+
+
+
+#calculator{
+    border: 1px solid rgb(251, 203, 116);
+    border-radius: 5px;
+    width: 200px;background-color: rgb(225, 227, 171);
+    margin: auto;   
+    position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#display{
+    margin: 10px;
+    width: 85%;
+    font-size: 40px;
+    color: rgb(152, 175, 87);
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.button{
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+}
